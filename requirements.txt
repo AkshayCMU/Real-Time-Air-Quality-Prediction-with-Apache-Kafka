@@ -1,0 +1,47 @@
+# Core Kafka and Streaming Dependencies
+confluent-kafka==2.3.0
+confluent-kafka[avro]==2.3.0
+confluent-kafka[schema-registry]==2.3.0
+confluent-kafka[protobuf]==2.3.0
+
+# Data Processing and Analysis
+pandas==2.1.4
+numpy==1.24.3
+scipy==1.11.4
+
+# Machine Learning
+scikit-learn==1.3.2
+xgboost==2.0.2
+tensorflow==2.15.0
+keras==2.15.0
+
+# Time Series Analysis
+statsmodels==0.14.0
+prophet==1.1.4
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.17.0
+
+# Data Quality and Validation
+great-expectations==0.18.8
+pandera==0.17.2
+
+# Configuration and Utilities
+pyyaml==6.0.1
+python-dotenv==1.0.0
+tqdm==4.66.1
+
+# Development and Testing
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
+
+# Jupyter and Interactive Development
+jupyter==1.0.0
+ipykernel==6.26.0
+
+# Additional Utilities
+requests==2.31.0
+urllib3==2.1.0
